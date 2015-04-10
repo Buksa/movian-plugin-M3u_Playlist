@@ -1,0 +1,14 @@
+{
+ "type": "ecmascript",
+  "apiversion": 1,
+  "id": "M3u_playlist",
+  "file": "M3u_playlist.js",
+  "showtimeVersion": "4.7.434",
+  "version": "1.3",
+  "author": "Buksa",
+  "title": "M3u_playlist",
+  "icon": "logo.png",
+  "synopsis": "M3u playlist",
+  "description": "<p>M3u_playlist - simple parser of M3u playlist into Movian</p>",
+  "category": "tv"
+}
