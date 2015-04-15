@@ -4,11 +4,11 @@
   "id": "M3u_playlist",
   "file": "M3u_playlist.js",
   "showtimeVersion": "4.7.434",
-  "version": "1.3",
+  "version": "1.3.1",
   "author": "Buksa",
   "title": "M3u_playlist",
   "icon": "logo.png",
   "synopsis": "M3u playlist",
-  "description": "<p>M3u_playlist - simple parser of M3u playlist into Movian</p>",
+  "description": "<p>M3u_playlist - simple parser of M3u playlist</p>",
   "category": "tv"
 }

@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-//ver 1.3
+//ver 1.3.1
 (function(plugin) {
     var plugin_info = plugin.getDescriptor();
     var PREFIX = plugin_info.id;
@@ -50,9 +50,9 @@
                 item.id = +i;
                 item.title = unescape(playlist[i]);
                 item.onEvent("deletePlaylist", function(item) {
-                    var arr = store.portals.split(',');
+                    var arr = store.playlist.split(',');
                     arr.splice(this.id, 1);
-                    store.portals = arr.toString();
+                    store.playlist = arr.toString();
                     showtime.notify("'" + this.title + "' has been deleted from the list.", 2);
                     showPlaylist(page);
                 }.bind(item));
